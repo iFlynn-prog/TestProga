@@ -2,7 +2,7 @@
 
 package Level_2;
 
-public class Level1_2 {
+public class Level2_1 {
     public static void main(String[] args) {
         int a = 123456;
         String numberString = Integer.toString(a);

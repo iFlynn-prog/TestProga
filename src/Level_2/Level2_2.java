@@ -1,19 +1,13 @@
-// Дано целое число. Выведите в консоль последнюю цифру этого числа.
 package Level_2;
+// Дано целое число. Выведите в консоль последнюю цифру этого числа.
+
 public class Level2_2 {
     public static void main(String[] args) {
-        int a = 12345678;
-        String numberString = Integer.toString(a);
+        int num = 12345;
 
-
-
-            //    numberString.codePoints(numberString.length()- 1);
-        System.out.println(numberString);
+        String numberString = Integer.toString(num);
+        char lastNumber = numberString.charAt(numberString.length() - 1);
+        System.out.println(lastNumber);
 
     }
 }
-
-
-// EVsyFr88
-
-// https://code.mu/ru/java/tasker/stager/1/2/
